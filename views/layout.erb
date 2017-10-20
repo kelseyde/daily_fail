@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Brawler" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <hr class="topline">
+      <div class="title">
+        <h1>DAILY NEWS</h1>
+      </div>
+      <div class="sections">
+        <p>World • Business • Finance • Lifestyle • Travel • Sport • Weather</p>
+      </div>
+      <div class="subtitle">
+        <span id="issue_no">ISSUE: 1403</span><span id="subtitle">MAKING JUST AS MUCH SENSE AS THE DAILY MAIL.</span><span id="est">EST: 1895</span>
+      </div>
+      <hr class="bottomline">
+      <div class="random_news">
+          <h4 id="news"><%= @first_card.upcase %> <%= @second_card.upcase %></h4>
+          <form id="refresh" action="/" method="POST">
+            <input type="submit" name="refresh" value="Refresh!">
+          </form>
+      </div>
+    </div>
+
+
+
+
+
+        </div>
+  </body>
+
+</html>
